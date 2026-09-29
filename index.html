@@ -1,19 +1,56 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
+
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8">
+  <title> My Profile Page </title>
 </head>
-<body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+
+<body style="background-color: aliceblue;">
+  <header>
+    <h1 style="color:palevioletred"> My Profile Page </h1>
+    <p style="font-family: courier;">Hi! I'm Mulook , a computer science student that is studying in the University of
+      Bahrain.
+      This page presents all of my personal details. Welcome to my personal hub. </p>
+  </header>
+
+  <img src="assets/photo.jpg" alt=" My profile picture " width="200" height="300" />
+  <nav>
+    <a href="about.html"> # About me </a>
+  </nav>
+
+  <main> 
+    <section> 
+      <h2 style="color:darkcyan"> Personal Information: </h2>
+      <ul>
+        <li> Name: Mulook Alsaffar </li>
+        <li> Age: 20 </li>
+        <li> Nationality: Bahraini </li>
+        <li> University: University of Bahrain </li>
+        <li> Major: Computer Science </li>
+      </ul>
+    </section> 
+
+    <section> 
+      <h2  style="color:darkcyan"> Core Skills and Technologies: </h2>
+      <ol>
+        <li> strong foundation in problem solving</li>
+        <li> core technical principles </li>
+        <li> modern programming technologies </li>
+      </ol>
+    </section>
+
+    <section> 
+      <h2  style="color:darkcyan"> External Resources: </h2>
+       <p> Check out my code repositories on <a href="https://github.com/mulook06" target="_blank">GitHub</a> </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p> &copy; 2026 Mulook Alsaffar </p>
+  </footer>
 </body>
+
 </html>
